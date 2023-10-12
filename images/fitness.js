@@ -114,27 +114,3 @@ function showPassword() {
 function hidePassword() {
     pass.type = "password"
 }
-
-
-//click stuff
-$("#img1").on("click", function() {
-    $(".articles1").css({ "display=show" })
-    $("#img1").on("click", function() {
-        $(".articles1").css({ "display=show" })
-    })
-    $("#img2").on("click", function() {
-        $(".articles2").css({ "display=none" })
-    })
-    $("#img3").on("click", function() {
-        $(".articles3").css({ "display=none" })
-    })
-    $("#img4").on("click", function() {
-        $(".articles4").css({ "display=none" })
-    })
-    $("#img5").on("click", function() {
-        $(".articles5").css({ "display=none" })
-    })
-    $("#img6").on("click", function() {
-        $(".articles6").css({ "display=none" }) //article houa aklli andk hekom
-    })
-})
