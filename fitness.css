@@ -24,3 +24,32 @@
           border-radius: 0%;
         }
       }
+      .cart {
+        border: 1px solid;
+         background-color: white;
+     }
+     
+     .cart h2 {
+        text-align: center;
+     }
+     
+     #items {
+       margin: auto;
+        text-align: center;
+     }
+     
+     
+     
+     #btn {
+        text-align: center;
+        background-color: blue;
+        color: black;
+        border-radius: 8px;
+     }
+     
+     #btn:hover {
+        background-color:white ;
+     }
+     #btn1:hover {
+       background-color: white;
+     }
