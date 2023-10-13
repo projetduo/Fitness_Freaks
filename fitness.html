@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fitness.css">
+    <title>Fitness Freaks</title>
+</head>
+
+<body>
+    <h1>Seasonal Discount</h1>
+    <div class="homegrid">
+        <img src="images/mainlogo.png" alt="logo" id="img1">
+        <div id="images"><video src="images/Untitled design(1).mp4" id="imgs" alt="" autoplay="true"></video></div>
+        <h4>Contact Us :FitnessFreaks@example.com</h4>
+        <h4>Or Call Us: +216 xx xxx xxx</h4>
+        <h4>Or visit our Facebook page: FitnessFreaks Shop</h4>
+    </div>
+    <div class="home">
+
+        <div class="login">
+
+            <h3>Please Enter Your FirstName</h3>
+            <input type="text">
+            <h3>Please Enter Your Password</h3>
+            <input type="password" id="pass"><br>
+            <button onclick="showPassword()">show password </button>
+            <button onclick="hidePassword()">hide password </button><br>
+            <h3>Confirm your password</h3>
+            <input type="password" id="pass1"><br>
+            <button onclick="showPassword()">show password </button>
+            <button onclick="hidePassword()">hide password </button><br>
+            <h4 id="comment"> </h4>
+            <button class="btn7">Submit</button>
+
+        </div>
+    </div>
+    <div class="Search">
+        <input type="text" id="categorySearchInput" placeholder="Search by Category">
+        <button id="searchButton">Search</button>
+    </div>
+    <div id="gym"></div>
+    <button class="btn6">add to card</button>
+    <div class="add"></div>
+    <div class="cart">
+        <h2>Cart</h2>
+        <table id="items">
+
+        </table>
+        <p>Total: <span id="total"></span>DT</p>
+        <button id="btn1">Checkout</button>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="fitnesss.js"></script>
+
+</html>
