@@ -1,166 +1,263 @@
-                        .homegrid {
-                            display: grid;
-                            background-image: url("images/1.jpg");
-                            background-repeat: none;
-                            background-size: 2000px;
-                        }
-                        
-                        body {
-                            background-image: url("images/background.avif");
-                            background-repeat: none;
-                            background-size: 2000px;
-                            background-position: center;
-                            background-position-y: top;
-                        }
-                        
-                        .login {
-                            border-style: outset;
-                            text-align: center;
-                            color: white;
-                            border-radius: 10px;
-                            margin: auto;
-                            width: 50%;
-                            padding-bottom: 10px;
-                        }
-                        
-                        #img {
-                            margin-left: 800px;
-                            width: 250px;
-                            height: 100px;
-                            margin-top: 0%;
-                        }
-                        
-                        .search {
-                            display: flex;
-                            justify-content: space-between;
-                            background-image: url("images/1.jpg");
-                            background-repeat: none;
-                            background-size: 2000px;
-                            height: 80px;
-                        }
-                        
-                        .imglogo {
-                            height: 100px;
-                            width: 250px;
-                            height: 100px;
-                        }
-                        
-                        .imgchart {
-                            height: 100px;
-                            width: 250px;
-                            height: 100px;
-                        }
-                        
-                        #type {
-                            width: 100px;
-                            height: 20px;
-                        }
-                        
-                        h5 {
-                            text-align: start;
-                            size: 100px;
-                            color: rgb(11, 11, 11);
-                        }
-                        
-                        .sndcolonne {
-                            grid-area: "text";
-                        }
-                        
-                        .fstcolonne {
-                            grid-area: "logo";
-                        }
-                        
-                        .trdcolonne {
-                            grid-area: "chart";
-                        }
-                        
-                        #imgs {
-                            width: 100%;
-                            height: auto;
-                        }
-                        
-                        #icons {
-                            display: flex;
-                            grid-template-areas: repeat(6, 100px);
-                            justify-content: space-between;
-                        }
-                        
-                        #img1 {
-                            width: 50px;
-                            height: 50px;
-                        }
-                        
-                        #img2 {
-                            width: 200px;
-                            height: 200px;
-                        }
-                        
-                        #img3 {
-                            width: 200px;
-                            height: 200px;
-                        }
-                        
-                        #img4 {
-                            width: 200px;
-                            height: 200px;
-                        }
-                        
-                        #img5 {
-                            width: 200px;
-                            height: 200px;
-                        }
-                        
-                        #img6 {
-                            width: 200px;
-                            height: 200px;
-                        }
-                        
-                        #img1 {
-                            width: 200px;
-                            height: 200px;
-                        }
-                        
-                        img:hover {
-                            background-color: red;
-                        }
-                        
-                        h4 {
-                            text-align: center;
-                            color: white;
-                            size: 100px;
-                        }
-                        
-                        h1 {
-                            text-align: center;
-                            color: white
-                        }
-                        
-                        #img1:hover {
-                            background-color: red;
-                        }
-                        
-                        #img2:hover {
-                            background-color: red;
-                        }
-                        
-                        #img3:hover {
-                            background-color: red;
-                        }
-                        
-                        #img4:hover {
-                            background-color: red;
-                        }
-                        
-                        #img5:hover {
-                            background-color: red;
-                        }
-                        
-                        #img6:hover {
-                            background-color: red;
-                        }
-                        
-                        .chart {
-                            color: white;
-                            border-style: double;
-                            border-color: beige;
-                        }
+h1 {
+    animation: spin 5s infinite;
+    margin: auto;
+    text-align: center;
+    color: blueviolet;
+    background-color: red;
+    width: 400px;
+    height: 50px;
+}
+
+@keyframes spin {
+    0% {
+        border-radius: 50%;
+        transform: rotate(-0deg);
+    }
+    50% {
+        transform: rotate(-360deg);
+        border-radius: 50%;
+    }
+    100% {
+        transform: rotate(-0deg);
+        border-radius: 0%;
+    }
+}
+
+.cart {
+    border: 1px solid;
+    background-color: white;
+}
+
+.cart h2 {
+    text-align: center;
+}
+
+#items {
+    margin: auto;
+    text-align: center;
+}
+
+#btn {
+    text-align: center;
+    background-color: blue;
+    color: black;
+    border-radius: 8px;
+}
+
+#btn:hover {
+    background-color: white;
+}
+
+#btn1:hover {
+    background-color: white;
+}
+
+#gym {
+    text-align: center;
+    border-inline: double;
+    color: black;
+    background-color: white;
+    border-block-end-style: solid;
+    border-block-end-width: 1px;
+    width: 1000px;
+    margin: auto;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+img:hover {
+    width: 600px;
+    height: 400px;
+    border-radius: 8px;
+}
+
+.homegrid {
+    display: grid;
+    background-image: url("images/1.jpg");
+    background-repeat: none;
+    background-size: 2000px;
+}
+
+body {
+    background-image: url("images/background.avif");
+    background-repeat: none;
+    background-size: 2000px;
+    background-position: center;
+    background-position-y: top;
+}
+
+.login {
+    border-style: outset;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+#img {
+    margin-left: 800px;
+    width: 250px;
+    height: 100px;
+    margin-top: 0%;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("images/1.jpg");
+    background-repeat: none;
+    background-size: 2000px;
+    height: 80px;
+}
+
+.sndlogo {
+    margin-top: 20px;
+}
+
+.imglogo {
+    height: 83px;
+    width: 200px;
+}
+
+.imgchart {
+    height: 83px;
+    width: 200px;
+}
+
+#type {
+    width: 100px;
+    height: 20px;
+}
+
+h5 {
+    text-align: start;
+    size: 100px;
+    color: rgb(11, 11, 11);
+}
+
+#imgs {
+    width: 100%;
+    height: auto;
+}
+
+#icons {
+    display: flex;
+    grid-template-areas: repeat(6, 100px);
+    justify-content: space-between;
+}
+
+#img1 {
+    width: 200px;
+    height: 200px;
+}
+
+#img2 {
+    width: 200px;
+    height: 200px;
+}
+
+#img3 {
+    width: 200px;
+    height: 200px;
+}
+
+#img4 {
+    width: 200px;
+    height: 200px;
+}
+
+#img5 {
+    width: 200px;
+    height: 200px;
+}
+
+#img6 {
+    width: 200px;
+    height: 200px;
+}
+
+#img1 {
+    width: 200px;
+    height: 150px;
+}
+
+img:hover {
+    background-color: red;
+}
+
+h4 {
+    text-align: center;
+    color: black;
+    size: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: white
+}
+
+#img1:hover {
+    background-color: red;
+}
+
+#img2:hover {
+    background-color: red;
+}
+
+#img3:hover {
+    background-color: red;
+}
+
+#img4:hover {
+    background-color: red;
+}
+
+#img5:hover {
+    background-color: red;
+}
+
+#img6:hover {
+    background-color: red;
+}
+
+.chart {
+    color: white;
+    border-style: double;
+    border-color: beige;
+}
+
+.c1 {
+    color: white;
+}
+
+.c2 {
+    color: white;
+}
+
+.c3 {
+    color: white;
+}
+
+.c4 {
+    color: white;
+}
+
+.c5 {
+    color: white;
+}
+
+.c6 {
+    color: white;
+}
+
+.add {
+    color: beige;
+    text-align: center;
+    border: 3px solid;
+}
